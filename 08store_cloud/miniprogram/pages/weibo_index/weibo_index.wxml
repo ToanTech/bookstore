@@ -1,0 +1,148 @@
+<view class="container">
+<!-- 第一条微博 -->
+  <view class="weibo-group">
+    <view class="user-group">
+      <image class="avatar" src="./images/userphoto.jpg"></image>
+      <view class="right-info">
+        <view class="username">灰灰~~~</view>
+        <view class="detail-info">
+          <view class="time">2019/1/1 20/10/12
+          </view>
+          <view class="from">来自iphone</view>
+        </view>
+      </view>
+    </view> 
+    <view class="weibo-content-group">
+      <view class="content">大家快来发布消息呀</view>
+      <view class="image-list-group">
+        <image src="./images/logo.jpg" mode="aspectFill" style="width:100%;max-height:400rpx;"></image>
+      </view>
+    </view>
+    <view class="weibo-handle">
+      <view class="comment-group">
+        <image src="./images/comment.png"></image>
+        评论
+      </view>
+      <view class="praise-group">
+        <image src="./images/praise.png"></image>
+        赞
+      </view>
+    </view>
+  </view>
+
+
+
+  <!--第二条微博 -->
+  <view class="weibo-group">
+    <view class="user-group">
+      <image class="avatar" src="./images/userphoto.jpg"></image>
+      <view class="right-info">
+        <view class="username">灰灰~~~</view>
+        <view class="detail-info">
+          <view class="time">2019/1/1 20/10/12
+          </view>
+          <view class="from">来自iphone</view>
+        </view>
+      </view>
+    </view> 
+    <view class="weibo-content-group">
+      <view class="content">大家快来发布消息呀</view>
+      <view class="image-list-group">
+        <image src="./images/logo.jpg" mode="aspectFill" style="width:{{twoImagesSize}}px;height:{{twoImagesSize}}px;"></image>
+        <image src="./images/logo.jpg" mode="aspectFill" style="width:{{twoImagesSize}}px;height:{{twoImagesSize}}px;"></image>
+      </view>
+    </view>
+    <view class="weibo-handle">
+      <view class="comment-group">
+        <image src="./images/comment.png"></image>
+        评论
+      </view>
+      <view class="praise-group">
+        <image src="./images/praise.png"></image>
+        赞
+      </view>
+    </view>
+  </view>
+
+<!-- 第三条微博信息 -->
+  <view class="weibo-group">
+    <view class="user-group">
+      <image class="avatar" src="./images/userphoto.jpg"></image>
+      <view class="right-info">
+        <view class="username">灰灰~~~</view>
+        <view class="detail-info">
+          <view class="time">2019/1/1 20/10/12
+          </view>
+          <view class="from">来自iphone</view>
+        </view>
+      </view>
+    </view> 
+    <view class="weibo-content-group">
+      <view class="content">大家快来发布消息呀</view>
+      <view class="image-list-group">
+        <image src="./images/logo.jpg" mode="aspectFill" style="width:{{twoImagesSize}}px;height:{{twoImagesSize}}px;"></image>
+        <image src="./images/logo.jpg" mode="aspectFill" style="width:{{twoImagesSize}}px;height:{{twoImagesSize}}px;"></image>
+         <image src="./images/logo.jpg" mode="aspectFill" style="width:{{twoImagesSize}}px;height:{{twoImagesSize}}px;"></image>
+        <image src="./images/logo.jpg" mode="aspectFill" style="width:{{twoImagesSize}}px;height:{{twoImagesSize}}px;"></image>
+      </view>
+    </view>
+    <view class="weibo-handle">
+      <view class="comment-group">
+        <image src="./images/comment.png"></image>
+        评论
+      </view>
+      <view class="praise-group">
+        <image src="./images/praise.png"></image>
+        赞
+      </view>
+    </view>
+  </view>
+
+
+<!-- 第四条微博 -->
+   <view class="weibo-group">
+    <view class="user-group">
+      <image class="avatar" src="./images/userphoto.jpg"></image>
+      <view class="right-info">
+        <view class="username">灰灰~~~</view>
+        <view class="detail-info">
+          <view class="time">2019/1/1 20/10/12
+          </view>
+          <view class="from">来自iphone</view>
+        </view>
+      </view>
+    </view> 
+    <view class="weibo-content-group">
+      <view class="content">大家快来发布消息呀</view>
+      <view class="image-list-group">
+       <image wx:for="{{images}}" src="./images/logo.jpg" mode="aspectFill" style="width:{{threeImageSize}}px;height:{{threeImageSize}}px;"></image>
+       <image wx:if="{{images.length%3 == 2}}" style="width:{{threeImageSize}}px;height:{{threeImageSize}}px;"></image>
+      </view>
+    </view>
+    <view class="weibo-handle">
+      <view class="comment-group">
+        <image src="./images/comment.png"></image>
+        评论
+      </view>
+      <view class="praise-group">
+        <image src="./images/praise.png"></image>
+        赞
+      </view>
+    </view>
+  </view>
+
+
+  <!-- 发微博按钮 -->
+  <view class="write-weibo-btn" bindtap="onwriteweiboTap">
+    <view>+</view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/text_publish/text_publish",
+    "pages/weibo_index/weibo_index",
+    "pages/weibo_login/weibo_login",
+    "pages/my/my",
+    "pages/index/searchbar/searchbar",
+    "pages/twopage/twopage",
+    "pages/twopage2/twopage2",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+     "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#00ff00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1hover.png"
+      },
+      {
+        "pagePath": "pages/twopage/twopage",
+        "text": "发布",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2_hover.png"
+      },
+      {
+        "pagePath": "pages/weibo_index/weibo_index",
+        "text": "交流",
+        "iconPath": "images/tabar3.png",
+        "selectedIconPath": "images/tabar3_hover.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabar4.png",
+        "selectedIconPath": "images/tabar4_hover.png"
+      }
+    ]
+  },
+  "cloud":true,
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置将用于发布功能的展示"
+    }
+  }
+
+
+}

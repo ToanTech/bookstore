@@ -1,0 +1,57 @@
+ 
+<!-- tab选项卡-->
+<view class="tab">
+  <view wx:for="{{tabTitleList}}" class="tab1" bindtap="tab1click" data-index="{{index}}">
+    {{item}}
+  </view>
+</view>
+
+<!-- 占位置用的对象，仅排版用，无其他用处-->
+<view class="null"></view>
+
+<!-- 订单对象-->
+
+<view class="item1" wx:for="{{Contactsfabu}}" wx:for-item="itemx" bindtap="ContactClick">
+  <view class="content">
+    <!--订单对象第一行-->
+    <view class="title">`
+      <view class="name" catchtap="tochat">
+        <text class="shangjia" decode='true'>> </text> {{itemx.nameofseller}}</view>
+      <view class="jiaoyi">{{itemx.state}}</view>
+    </view>
+
+    <!-- 点击会跳转详情页-->
+    <view class="cell" catchtap="details">
+
+      <!-- 图像-->
+      <view class="outimg">
+        <image class="img" src="{{itemx.urlimg}}"> </image>
+      </view>
+
+      <!-- 图像右边的商品名称和商品详情-->
+      <view class="text">
+        <view class="brand">{{itemx.nameofgoods}}</view>
+        <text class="intro">{{itemx.aboutdetails}}</text>
+      </view>
+
+      <!-- 绑定付款金额-->
+      <view class="boxpay">
+        <view class="spay">应付账款：￥{{itemx.price}}</view>
+        <view class="pay">实际付款：￥{{itemx.realprice}}</view>
+      </view>
+
+    </view>
+
+    <!-- 删除订单和评价的按钮-->
+    <view class="btn">
+      <view class="option" catchtap="aboutdelete">
+        删除订单
+      </view>
+      <view class="option" catchtap="review">
+        立即评价
+      </view>
+    </view>
+
+	</view>
+
+</view>

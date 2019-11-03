@@ -1,0 +1,33 @@
+<form bindsubmit="formSubmit">
+  <view class="goods">
+    <text>商品名称</text><input  name="good_name" type = "text"  placeholder="示例：高等数学第二版书 " name="good_name"/>
+  </view>
+  
+  <view class="Label">
+    <text>商品标签</text>
+    <checkbox-group class="checkbox" color="#ff0000">
+      <checkbox name="books">图书</checkbox>
+      <checkbox name="eats">零食</checkbox>
+      <checkbox name="furniture">家具</checkbox>
+      <checkbox name="labor">劳动</checkbox>
+    </checkbox-group>
+  </view>
+
+  <view class="goods">
+    <text>商品金额</text><input  name="wel_money" type = "text"  placeholder="定义你的商品价格 "/>
+  </view>
+
+  <view class="goods">
+    <text>微信号码</text><input  name="wel_number" type = "text"  placeholder="方便买家与你联系 "/>
+  </view>
+
+  <view class="detail">
+    <textarea placeholder="可以把想写的商品介绍放在这里，让买家更加了解你的商品信息。" name="good_details"></textarea>
+  </view>
+
+  <view class="formSubmit">
+    <button form-type="submit" type="" class="submit" bindtap="onsubmit">确认发布商品</button>
+
+  </view>
+  
+</form>

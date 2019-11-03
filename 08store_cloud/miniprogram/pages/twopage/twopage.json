@@ -1,0 +1,9 @@
+{
+"usingComponents": {},
+	"backgroundTextStyle": "dark",
+	"navigationBarBackgroundColor": "#6DBAEC",
+	"navigationBarTitleText": "发布闲置",
+	"navigationBarTextStyle": "white",
+	"backgroundColor": "#000",
+	"enablePullDownRefresh": true
+}

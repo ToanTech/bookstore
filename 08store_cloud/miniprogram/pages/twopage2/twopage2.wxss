@@ -1,0 +1,138 @@
+Page {
+  background-color: #f1f1f1;
+}
+
+/*tab栏*/
+.tab {
+	z-index: 10;
+  position: fixed;
+  top:0; 
+  width: 100%;
+  height: 80rpx;
+  background-color: white;
+  line-height: 80rpx;
+}
+.tab1{
+	float:left;
+	margin-left:150rpx;
+}
+
+
+/*订单对象*/
+.content {
+  margin-top: 10rpx;
+}
+
+/*订单对象第一行*/
+.title {
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-bottom: 2rpx;
+	background-color: white;
+}
+
+/*商家名字*/
+.name {
+	overflow: hidden;
+	width:30%;
+	height:100%;
+  float: left;
+  font-size: 24rpx;
+  margin-left: 0rpx;
+}
+.shangjia{
+  color: #007fff;
+}
+/*交易情况（交易成功/已发布）*/
+.jiaoyi {
+  float: right;
+  font-size: 20rpx;
+  margin-bottom: 15rpx;
+  margin-right: 10rpx;
+  color: #007fff
+}
+/*图片对象*/
+.img {
+  height: 150rpx;
+  width: 200rpx;
+  margin-left: 0rpx;
+  margin-right:20rpx;
+}
+/*控制图像 左浮动*/
+.outimg {
+  float: left;
+}
+
+
+/*订单对象第二行*/
+.cell {
+	position:relative;
+	left: 0rpx;
+	top: 0rpx;
+  width: 100%;
+  height: 150rpx;
+	margin-top: 1rpx;
+	margin-bottom: 1rpx;
+	background-color: white;
+}
+
+/*图片右方的文字样式设置*/
+.text {
+	width:70%;
+	height: 55%;
+	overflow: hidden;
+  font-size: 20rpx;
+	position:absolute;
+	left: 230rpx;
+	top: 0;
+}
+.brand {
+  color: black;
+  font-size: 24rpx;
+}
+.intro {
+  color: #808080;
+}
+.boxpay{
+	font-size: 20rpx;
+	height:40%;
+	width:60%;
+	position:absolute;
+	left: 230rpx;
+	top: 60%;
+}
+.pay {
+  color: #007fff;
+}
+.spay {
+  color: #808080;
+}
+
+/*订单对象最后一行*/
+.btn {
+  width: 100%;
+  height: 45rpx;
+  line-height: 30rpx;
+	background-color: white;
+}
+.option {
+	height:30rpx;
+	width: 90rpx;
+	text-indent: 10rpx;
+	line-height: 30rpx;
+  font-size: 18rpx;
+  float: right;
+  margin-right: 20rpx;
+	margin-top: 7rpx;
+  border: 1rpx solid #007fff;
+	border-radius: 5rpx;
+}
+
+
+/*仅排版用的空白区域*/
+.null {
+  height: 80rpx;
+}
+
+

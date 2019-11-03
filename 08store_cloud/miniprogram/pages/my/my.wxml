@@ -1,0 +1,10 @@
+
+
+<view class="mine">
+  <image src=""></image>
+</view>
+<view class="user-portrait"><open-data type="userAvatarUrl" class="userinfo" id="userinfo"></open-data></view>
+
+<view class="Order" bindtap="onclickOrder">我的订单</view>
+<view class="Order">联系我们</view>
+<view class="Order">意见反馈</view>

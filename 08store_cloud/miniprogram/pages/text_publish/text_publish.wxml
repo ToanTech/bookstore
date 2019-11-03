@@ -1,0 +1,22 @@
+<view class="container">
+  <form bindsubmit="onSubmitEvent">
+      <textarea name="content" class="textarea" placeholder="请输入你发布的文字信息"></textarea>
+    <view class="image-list-group">
+     <view wx:for="{{tempImages}}" class="image-group" style="width:{{imageSize}}px;height:{{imageSize}}px">
+      <image src="{{item}}"></image>
+      <view class="close-btn" bindtap="onRemoveBtnTap" data-index="{{index}}"></view>
+     </view>
+     <view class="add-image-btn" style="width:{{imageSize}}px;height:{{imageSize}}px" bindtap="onAddImageTap">
+      <view>+</view>
+     </view>
+    </view> 
+    <view class="location-group" bindtap="onlocationTap">
+        <view class="left-group">
+            <image class= "icon" src="images/location.png" ></image>                          
+            <view class="location-name">{{location.name?location.name:"所在位置"}}</view> 
+        </view>
+        <image class="arrow" src="images/arrow.png"></image>
+    </view>
+    <button  formType="submit" type="primary" class="submit-btn">发表</button>
+  </form>
+</view>

@@ -1,0 +1,83 @@
+
+.goods{
+  margin:20rpx auto;
+  width: 94%;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  align-items:center ;
+}
+
+
+
+.goods text{
+  height: 100%;
+  font-size:30rpx;
+  margin-left: 40rpx;
+  font-weight: bold;
+}
+
+.goods input{
+  margin-left:30rpx;
+  font-size:30rpx;
+}
+
+.Label{
+  width: 94%;
+  margin:0 auto;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.Label text{
+  height: 100%;
+  font-size:30rpx;
+  margin-left: 40rpx;
+  font-weight: bold;
+}
+
+
+.checkbox{
+  text-align: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.checkbox .checkbox{
+  margin: 20rpx;
+}
+
+.checkbox .wx-checkbox-input{
+  width: 79rpx;
+  background-color:#F4F4F4;
+  color:#545981;
+}
+.checkbox .wx-checkbox-input-checked{
+  background-color:#545981;
+  color:#000000;
+}
+
+
+
+
+
+.detail{
+  width: 94%;
+
+}
+.detail textarea{
+  width: 94%;
+  margin-left: 46rpx;
+  height: 400rpx;
+  border: 1px solid #000000; 
+  box-sizing: border-box;
+}
+
+
+
+
+.submit{
+  width: 88%;
+  margin-top: 40rpx;
+  border-radius: 40rpx;
+  background-color: #4D5278;
+}
+

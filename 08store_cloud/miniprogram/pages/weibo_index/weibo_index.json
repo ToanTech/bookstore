@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#6DBAEC",
+  "navigationBarTitleText": "交流",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "FF0000",
+  "enablePullDownRefresh": true
+}
